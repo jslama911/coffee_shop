@@ -1,3 +1,65 @@
+@media screen and (max-width: 600px) {
+
+    body{
+        background-color: #361500;
+        color: #eeb257;
+        margin: 0px;
+        font-family: 'Lora', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Shantell Sans', cursive;
+    }
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #1C0A00;
+    }
+    
+    .nav { float: left; }
+    
+    .nav a {
+        /* display: block; */
+        color: #eeb257;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .nav a:hover {
+        background-color: gray;
+    }
+    
+    
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .coffee{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .pastry{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .smoothies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .menu-header{
+        display: flex;
+        justify-content: center;
+    }
+}
+    
+@media screen and (min-width: 601px) {
+    
 body{
     background-color: #361500;
     color: #eeb257;
@@ -9,7 +71,7 @@ body{
 .navbar {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	overflow: hidden;
 	background-color: #1C0A00;
 }
@@ -17,7 +79,7 @@ body{
 .nav { float: left; }
 
 .nav a {
-	display: block;
+	/* display: block; */
 	color: #eeb257;
 	padding: 10px;
 	text-decoration: none;
@@ -69,4 +131,16 @@ body{
 .menu-header{
     display: flex;
     justify-content: center;
+}
+
+}
+
+.outside{
+    max-width: 70%;
+    height: auto;
+}
+
+.inside{
+    max-width: 75%;
+    height: auto;
 }
